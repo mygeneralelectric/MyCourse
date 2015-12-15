@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/item1"
+            android:icon="@drawable/ic_filter_1_white_48dp"
+            android:state_checked="true"
+            android:title="每日课表"/>
+
+        <item android:id="@+id/item2"
+            android:icon="@drawable/ic_filter_2_white_48dp"
+            android:title="每周课表"/>
+
+        <item android:id="@+id/item3"
+            android:icon="@drawable/ic_filter_3_white_48dp"
+            android:title="成绩"/>
+
+        <item android:id="@+id/item4"
+            android:icon="@drawable/ic_filter_4_white_48dp"
+            android:title="绩点"/>
+
+        <item android:id="@+id/item5"
+            android:icon="@drawable/ic_filter_5_white_48dp"
+            android:title="测试"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/course_setting"
+            android:title="设置"/>
+        <item
+            android:id="@+id/log_out"
+            android:title="注销"/>
+    </group>
+
+</menu>
